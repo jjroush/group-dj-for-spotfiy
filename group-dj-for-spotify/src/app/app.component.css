@@ -1,0 +1,48 @@
+.btn {
+    color: white;
+    background-color: #292f36; 
+    border-color: #292f36;
+
+    display: inline-block;
+    padding: 16px 48px 18px;
+    font-size: 14px;
+    line-height: 1.0;
+    border-radius: 2.25rem;
+    letter-spacing: 2px;
+    border: 1px solid transparent;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+
+}
+
+.button, .title {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.button-group {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 30px;
+}
