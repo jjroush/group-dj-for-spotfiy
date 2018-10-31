@@ -4,8 +4,8 @@
   "newProjectRoot": "projects",
   "projects": {
     "group-dj-for-spotify": {
-      "root": "",
-      "sourceRoot": "src",
+      "root": "client",
+      "sourceRoot": "client/src",
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
@@ -13,17 +13,17 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/group-dj-for-spotify",
-            "index": "src/index.html",
-            "main": "src/main.ts",
-            "polyfills": "src/polyfills.ts",
-            "tsConfig": "src/tsconfig.app.json",
+            "outputPath": "client/dist/",
+            "index": "client/src/index.html",
+            "main": "client/src/main.ts",
+            "polyfills": "client/src/polyfills.ts",
+            "tsConfig": "client/src/tsconfig.app.json",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "client/src/favicon.ico",
+              "client/src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "client/src/styles.css"
             ],
             "scripts": []
           },

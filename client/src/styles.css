@@ -9,7 +9,7 @@ body {
 @media (orientation: landscape) {
     body {
         background-size: 100vw auto;
-    }
+        }
 }
 
 a {
